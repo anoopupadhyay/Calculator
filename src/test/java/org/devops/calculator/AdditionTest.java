@@ -10,7 +10,7 @@ public class AdditionTest extends TestCase{
 	}
 
 	public void testSumOfTwoPositiveNumbers() {
-		assertEquals(700.00,add.addition(300,400));
+		assertEquals(800.00,add.addition(300,400));
 		System.out.println("testSumOfTwoPositiveNumbers: "+add.addition(300,400));
 	}
 	public void testSumOfTwoNegativeNumbers() {
