@@ -14,7 +14,7 @@ public class AdditionTest extends TestCase{
 		System.out.println("testSumOfTwoPositiveNumbers: "+add.addition(300,400));
 	}
 	public void testSumOfTwoNegativeNumbers() {
-		assertEquals(-800.00,add.addition(-400,-300));
+		assertEquals(-700.00,add.addition(-400,-300));
 		System.out.println("testSumOfTwoNegativeNumbers: "+add.addition(-400,-300));
 	}
 	public void testSumOfTwoOnePositiveAndNegativeNumbers() {
@@ -30,7 +30,7 @@ public class AdditionTest extends TestCase{
 		System.out.println("testSumOfTwoOneFloatAndIntegerNumbers: "+add.addition(400.50,300));
 	}
 	public void testSumOfTwoFloatNumbers() {
-		assertEquals(800.00,add.addition(400.50,299.50));
+		assertEquals(700.00,add.addition(400.50,299.50));
 		System.out.println("testSumOfTwoFloatNumbers: "+add.addition(400.50,299.50));
 	}
 }
