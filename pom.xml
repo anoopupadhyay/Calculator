@@ -75,7 +75,7 @@
 					</execution>
 			</plugin>
 			-->
-			<!-- Trial - 4 : maven command : mvn clean install -->
+			<!-- Trial - 4 : maven command : mvn clean install 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
@@ -93,6 +93,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			-->
 			<!-- Trial - 5 : update the tag <failsOnError>true</failsOnError> : maven command : mvn clean install -->
 		<!--<plugin>
 				<groupId></groupId>
