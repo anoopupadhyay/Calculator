@@ -10,7 +10,7 @@ public class SubstractionTest extends TestCase{
 	}
 
 	public void testSubOfTwoPositiveNumbers() {
-		assertEquals(-100.00,subs.sub(300,400));
+		assertEquals(-300.00,subs.sub(300,400));
 		System.out.println("testSumOfTwoPositiveNumbers: "+subs.sub(300,400));
 	}
 	public void testSubOfTwoNegativeNumbers() {
@@ -18,7 +18,7 @@ public class SubstractionTest extends TestCase{
 		System.out.println("testSumOfTwoNegativeNumbers: "+subs.sub(-400,-300));
 	}
 	public void testSubOfOneNegativeAndOnePositive() {
-		assertEquals(700.00,subs.sub(400,-300));
+		assertEquals(800.00,subs.sub(400,-300));
 		System.out.println("testSumOfTwoNegativeNumbers: "+subs.sub(400,-300));
 	}	
 }
