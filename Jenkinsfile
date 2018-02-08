@@ -10,6 +10,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'build'
+        build 'mvn clean install'
       }
     }
     stage('deploy') {
