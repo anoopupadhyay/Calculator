@@ -1,24 +1,26 @@
 pipeline {
   agent any
-  tools{
-maven 'maven 3'
-jdk 'java 8'
-}
+  
   stages {
-    stage('checkout') {
+    stage('checkout stage') {
       steps {
         echo 'get code'
         git(url: 'https://github.com/DIGITALAPPLICATION/Calculator.git', branch: 'master')
       }
     }
-    stage('build') {
+    stage('build stage') {
       steps {
        
-         sh 'mvn clean install'
-        echo 'build'
+         echo 'build'
       }
     }
-    stage('Report') {
+    
+    stage('deploy stage') {
+      steps {
+         echo 'deploy'
+      }
+    }
+    stage('Report stage') {
       steps {
         echo 'report'
       }
