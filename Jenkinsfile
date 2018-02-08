@@ -14,7 +14,7 @@ jdk 'java 8'
     stage('build') {
       steps {
        
-         sh 'mvn clean install
+         sh 'mvn clean install'
         echo 'build'
       }
     }
