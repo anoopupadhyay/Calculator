@@ -9,13 +9,12 @@ pipeline {
     }
     stage('build') {
       steps {
-        echo 'build'
-        build 'mvn clean install'
+        echo 'deployed'
       }
     }
-    stage('deploy') {
+    stage('Report') {
       steps {
-        echo 'deployed'
+        echo 'report'
       }
     }
   }
