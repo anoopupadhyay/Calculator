@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        echo 'hello world'
+        echo 'get code'
       }
     }
     stage('build') {
       steps {
-        build 'Calculator'
+        echo 'build'
       }
     }
     stage('deploy') {
