@@ -13,11 +13,8 @@ jdk 'java 8'
     }
     stage('build') {
       steps {
-        sh '''
-     echo "PATH = ${PATH}"
-    echo "M2_HOME = ${M2_HOME}"
-   '''
-         sh 'mvn clean verify
+       
+         sh 'mvn clean install
         echo 'build'
       }
     }
