@@ -1,4 +1,4 @@
-/*package org.devops.calculator;
+package org.devops.calculator;
 
 import junit.framework.TestCase;
 
@@ -22,4 +22,3 @@ public class SubstractionTest extends TestCase{
 		System.out.println("testSumOfTwoNegativeNumbers: "+subs.sub(400,-300));
 	}	
 }
-*/
