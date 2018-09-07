@@ -15,11 +15,6 @@ pipeline {
             steps {
                 echo 'This is a minimal pipeline.'
             }
-             stage ('sonar') {
-            steps {
-                sh 'mvn  sonar:sonar'
-            }
-           
         }
     }
 }
