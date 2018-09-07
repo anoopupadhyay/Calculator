@@ -1,9 +1,7 @@
 package org.devops.calculator;
 
 public class Addition{
-	double a;
-	double b;
-	public double addition( a,  b){
+		public double addition(double a, double b){
 		return a+b;
 	}
 }
